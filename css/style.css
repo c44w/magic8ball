@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family:Arial, sans-serif;
+    background: radial-gradient(circle, rgba(32,61,149,1) 1%, rgba(2,0,36,1) 99%);
+}
+
+form {
+    border: 3px solid #213E94;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #000009;
+}
+
+label {
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#shownPic {
+    height: 500px;
+}
+
+#question {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    font-size: medium;
+}
+
+#ask {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    font-size: medium;
+    width:fit-content;
+    text-align: center;
+    display: flex;
+}
+
+/* Day 3 */
+    /* div {
+        padding:20px;
+        border: 10px solid black
+    }
+
+Day 4 */
+
+
+/* Day 11 (game > css/styles.css) */
+/* .card {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 200px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: white;
+}
+
+.suit{
+    text-align: center;
+    font-size:  35px;
+}
+
+.bottom-text {
+    text-align: right;
+    
+}
+
+.red {
+    color: red;
+} */
