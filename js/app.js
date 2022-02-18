@@ -1,10 +1,11 @@
 const askButton = document.getElementById('ask');
 
 askButton.addEventListener('click', function(event) {
-    event.preventDefault;
+    event.preventDefault();
 
     const shownPic = document.querySelector('img');
     const questionField = document.getElementById('question').value;
+    
     console.log(questionField);
     console.log(questionField.length);
     
@@ -13,11 +14,11 @@ askButton.addEventListener('click', function(event) {
             const randomNumber = Math.floor(Math.random() * 20 + 1);
             const filePath = `images/answers/magic8ball_${randomNumber}.png`; 
             shownPic.src = filePath;
-            return filePath;
+            // return filePath;
         }
-        choosePic();    
+        choosePic();
     } else {
-        alert("Sorry, I didn't understand. Please be more specific or clear.")
+        // alert("Sorry, I didn't understand. Please be more specific or clear.")
     }
 });
 
